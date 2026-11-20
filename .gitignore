@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Database & local runtime files
+*.db
+*.sqlite
+*.sqlite3
+datafix.db
+backend/datafix.db
+
+# Dynamic upload and cleaned directories
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/cleaned/*
+!backend/cleaned/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+frontend/.env
+frontend/.env.local
+
+# Node & Next.js
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+out/
+frontend/out/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test artifacts & OS files
+*.png
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
